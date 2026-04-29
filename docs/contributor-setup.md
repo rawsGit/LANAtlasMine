@@ -223,6 +223,15 @@ git rm --cached .env
 
 Then commit the removal.
 
+### verify environment 
+'''powershell
+pip list 
+'''
+
+### check key packages
+'''powershell
+pip show [package] (i.e. pip show fastapi)
+'''
 ## Notes for contributors using AI coding tools
 
 If you use tools such as Claude, Cursor, or ChatGPT-assisted workflows:
