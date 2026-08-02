@@ -1,0 +1,18 @@
+07/19/2026
+Note: A list of new files added to LAN-ATLAS version 1.5
+
+./app/config/alerts.py
+./app/config/identity.py
+./app/database/audit.py
+./app/models/audit_log.py
+./app/repositories/audit.py
+./app/repositories/devices.py
+./app/repositories/observations.py
+./app/repositories/signals.py
+./app/services/classification.py
+./app/services/deduplication.py
+./app/services/identity.py
+./app/services/thresholds.py
+./migrations/manual/audit_log.sql
+./tests/conftest.py
+./tests/services/test_identity.py
